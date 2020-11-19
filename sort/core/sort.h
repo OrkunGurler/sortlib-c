@@ -9,4 +9,4 @@ void insertion_sort(int *arr, int size, int flag);
 void merge(double *arr, int p, int q, int r, int flag);
 void merge_sort(double *arr, int p, int r, int flag);
 
-void selection_sort(int *arr, int size, int flag);
+void selection_sort(double *arr, int size, int flag);
