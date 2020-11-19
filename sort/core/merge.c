@@ -1,12 +1,12 @@
 #include "sort.h"
 
-void mergeSort(double *arr, int p, int r, int flag)
+void merge_sort(double *arr, int p, int r, int flag)
 {
     if (p + 1 < r)
     {
         int q = (int)((p + r) / 2);
-        mergeSort(arr, p, q, flag);
-        mergeSort(arr, q, r, flag);
+        merge_sort(arr, p, q, flag);
+        merge_sort(arr, q, r, flag);
         merge(arr, p, q, r, flag);
     }
 }

@@ -1,6 +1,6 @@
 #include "sort.h"
 
-void insertion_sort(int *arr, int size, int flag)
+void insertion_sort(double *arr, int size, int flag)
 {
     int temp;
     int i, j;
