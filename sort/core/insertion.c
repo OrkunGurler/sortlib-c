@@ -2,7 +2,7 @@
 
 void insertion_sort(double *arr, int size, int flag)
 {
-    int temp;
+    double temp;
     int i, j;
     for (i = 1; i < size; i++)
     {
