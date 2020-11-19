@@ -62,7 +62,7 @@ double *cr_arr(int size)
     return random_arr;
 }
 
-int compare(double num1, double num2, int flag) { return (flag == 1 ? num1 <= num2 : num1 > num2); }
+int compare(double num1, double num2, int flag) { return (flag == 1 ? num1 <= num2 : num1 > num2); } // TODO MOVE THIS FUNC!!!
 
 void print_array(double *arr, int size)
 {
